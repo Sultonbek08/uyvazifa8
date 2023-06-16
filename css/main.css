@@ -54,7 +54,13 @@ h1 {
     font-size: 30px;
     border-radius: 40px;
     font-family: "Roboto";
-    transition: 0.5;
+    transition: .5s;
+    border: 3px;
+}
+.follow:hover{
+    color: #7C4D15;
+    background: #fff;
+    border: #7C4D15 solid 4px;
 }
 .massage{
     height: 62px;
@@ -68,7 +74,12 @@ h1 {
     font-size: 30px;
     border-radius: 40px;
     font-family: "Roboto";
-    transition: 0.5;
+    transition: .5s;
+}
+.massage:hover{
+    color: #7C4D15;
+    background: #fff;
+    border: #7C4D15 solid 4px;
 }
 .header__container__card1{
     display: flex;
